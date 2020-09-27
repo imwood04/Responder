@@ -14,8 +14,8 @@ class Main extends PluginBase{
         $this->getLogger()->info(TextFormat::WHITE . "I've been loaded!");
     }
     public function onEnable() : void{
-        $this->getServer()->getPluginManager()->registerEvents(new ChatRespond($this), $this);
-        $this->getScheduler()->scheduleRepeatingTask(new BroadcastTask($this->getServer()), 120);
+        $this->getServer()->getPluginManager()->registerEvents(new Listen($this), $this);
+        $this->getScheduler()->scheduleRepeatingTask(new Broadcast($this->getServer()), 120);
         $this->getLogger()->info(TextFormat::DARK_GREEN . "Chat Responder Enabled!");
     }
     public function onDisable() : void{
