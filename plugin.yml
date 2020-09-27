@@ -1,15 +1,13 @@
 name: Responder
-main: respond\Main
-version: 1.0
-api: 3.0.0
-
-author: imwood04
-description: New test plugin
-website: nagames.herokuapp.com
+description: A Command TEster Plugin
+main: Imwood04\Respond\Main
+author: Imwood04
+version: 1.0.0
+api: [3.0.0]
 
 commands:
-  example:
-    description: Respond
+  respond:
+    description: Responds well should...
     usage: "/respond"
     permission: respond.command.respond
 permissions:
