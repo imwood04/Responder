@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ExamplePlugin;
+namespace Responder;
 
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerRespawnEvent;

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace chatRespond;
+namespace Responder;
 
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;

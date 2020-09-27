@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Respond;
+namespace Responder;
 
 use pocketmine\scheduler\Task;
 use pocketmine\Server;
