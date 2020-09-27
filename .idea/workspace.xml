@@ -19,7 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbabee8d-9a2e-49c0-b399-266e2c286047" name="Default Changelist" comment="Should Fix stuff hopefully">
+    <list default="true" id="fbabee8d-9a2e-49c0-b399-266e2c286047" name="Default Changelist" comment="No CLue anymore xD">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Imwood04/Respond/Broadcast.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Imwood04/Respond/Broadcast.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Imwood04/Respond/Listen.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Imwood04/Respond/Listen.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Imwood04/Respond/Main.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Imwood04/Respond/Main.php" afterDir="false" />
@@ -64,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601235708503</updated>
-      <workItem from="1601235709582" duration="1622000" />
+      <workItem from="1601235709582" duration="2340000" />
     </task>
     <task id="LOCAL-00001" summary="YEh">
       <created>1601235963668</created>
@@ -94,7 +95,28 @@
       <option name="project" value="LOCAL" />
       <updated>1601237085664</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="No CLue anymore xD">
+      <created>1601237388513</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601237388513</updated>
+    </task>
+    <task id="LOCAL-00006" summary="No CLue anymore xD">
+      <created>1601237399112</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1601237399112</updated>
+    </task>
+    <task id="LOCAL-00007" summary="No CLue anymore xD">
+      <created>1601237543181</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1601237543181</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,10 +134,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="YEh" />
     <MESSAGE value="Added Stuffz" />
     <MESSAGE value="Should Fix stuff hopefully" />
-    <option name="LAST_COMMIT_MESSAGE" value="Should Fix stuff hopefully" />
+    <MESSAGE value="No CLue anymore xD" />
+    <option name="LAST_COMMIT_MESSAGE" value="No CLue anymore xD" />
   </component>
   <component name="WindowStateProjectService">
     <state x="434" y="188" key="#Notifications" timestamp="1601235921968">
@@ -130,9 +154,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1601235978067" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1601237092158">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1601237549521">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1601237092158" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1601237549521" />
   </component>
 </project>

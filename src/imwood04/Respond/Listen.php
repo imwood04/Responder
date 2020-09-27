@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Responder;
+namespace Imwood04\Responder;
 
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerRespawnEvent;

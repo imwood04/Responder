@@ -1,7 +1,7 @@
 name: Responder
 description: A Command TEster Plugin
-main: Imwood04\Respond\Main
-author: Imwood04
+main: imwood04\Respond\Main
+author: imwood04
 version: 1.0.0
 api: [3.0.0]
 
