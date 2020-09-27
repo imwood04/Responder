@@ -7,7 +7,7 @@ namespace Responder;
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerRespawnEvent;
 
-class ExampleListener implements Listener{
+class Listen implements Listener{
 
     /** @var Main */
     private $plugin;
