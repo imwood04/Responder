@@ -1,0 +1,19 @@
+name: Responder
+main: respond\Main
+version: 1.0
+api: 3.0.0
+
+author: imwood04
+description: New test plugin
+website: nagames.herokuapp.com
+
+commands:
+  example:
+    description: Respond
+    usage: "/respond"
+    permission: respond.command.respond
+permissions:
+  respond.command.respond:
+    description: "Allows the user to run the command"
+    default: true
+
