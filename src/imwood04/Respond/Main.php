@@ -1,5 +1,5 @@
 <?php
-
+declare(strict_types=1);
 namespace Imwood04\Responder;
 
 use pocketmine\Player;
@@ -7,7 +7,8 @@ use pocketmine\plugin\PluginBase;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 
-class Main extends PluginBase{
+class main extends PluginBase{
+    private static $instance;
     public function onEnable(){
         $this->getLogger()->info("Respond Enabled!");
 
