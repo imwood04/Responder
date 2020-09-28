@@ -7,15 +7,18 @@ use pocketmine\plugin\PluginBase;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 
-class main extends PluginBase{
-    private static $instance;
-    public function onEnable(){
-        $this->getLogger()->info("Respond Enabled!");
+class Main extends PluginBase{
 
+    private static $instance;
+
+    public function onEnable() {
+        self::$instance = $this;
     }
-    public function onDisable(){
-        $this->getLogger()->info("Respond Disabled!");
+
+    public static function getInstance() {
+        return self::$instance;
     }
+
     public function onCommand(CommandSender $sender, Command $cmd, String $label, Array $args) : bool {
         switch ($cmd->getName()){
             case "respond";
