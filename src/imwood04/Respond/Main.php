@@ -11,9 +11,7 @@ use pocketmine\plugin\PluginBase;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 
-use pocketmine\Listener;
-
-class main extends PluginBase implements Listener {
+class main extends PluginBase{
     public function onEnable(){
         $this->getLogger()->info("Respond Enabled!");
 
