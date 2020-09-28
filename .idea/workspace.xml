@@ -1,26 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbabee8d-9a2e-49c0-b399-266e2c286047" name="Default Changelist" comment="Fix Maybe?">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,10 +33,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\PhpstormProjects\Responder\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\User\PhpstormProjects\Responder\src" />
       <recent name="C:\Users\User\PhpstormProjects\Responder\src\imwood04" />
@@ -64,7 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601235708503</updated>
       <workItem from="1601235709582" duration="6735000" />
-      <workItem from="1601316218686" duration="5059000" />
+      <workItem from="1601316218686" duration="6298000" />
     </task>
     <task id="LOCAL-00001" summary="YEh">
       <created>1601235963668</created>
@@ -185,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601322111907</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Fix Maybe?">
+      <created>1601322280169</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1601322280169</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,11 +192,41 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Users/User/PhpstormProjects/Responder/src/pocketmine" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
           </value>
         </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
@@ -218,6 +246,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="434" y="188" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1601235921968" />
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1601322800236">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1601322800236" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1601323561419">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601323561419" />
     <state x="411" y="87" key="NewPhpClassDialog" timestamp="1601317510173">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -226,13 +262,29 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1601236932621" />
+    <state x="489" y="84" key="RollbackChangesDialog" timestamp="1601322683283">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="489" y="84" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1601322683283" />
     <state x="184" y="9" key="SettingsEditor" timestamp="1601235978067">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1601235978067" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1601321679112">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1601322302753">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1601321679112" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1601322302753" />
+    <state x="451" y="98" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1601322297280">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="451" y="98" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1366.728@0.0.1366.728" timestamp="1601322297280" />
+    <state x="471" y="258" key="git4idea.ui.GitResetDialog" timestamp="1601322794983">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="471" y="258" key="git4idea.ui.GitResetDialog/0.0.1366.728@0.0.1366.728" timestamp="1601322794983" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1601323091620">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1601323091620" />
   </component>
 </project>
