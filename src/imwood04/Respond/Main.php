@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Imwood04\Responder;
 
 use pocketmine\Player;
-use pocketmine\Server;
 
 use pocketmine\plugin\PluginBase;
 
@@ -27,7 +26,7 @@ class main extends PluginBase implements Listener {
             case "respond";
              $sender->sendMessage("test works!");
              if($sender instanceof Player){
-                 $sender->sendMeassge("Command Works");
+                 $sender->sendMessage("Command Works");
              } else {
                  $sender->sendMessage("Command sent in Console");
              }
