@@ -29,7 +29,8 @@ class main extends PluginBase implements Listener {
              if($sender instanceof Player){
                  $sender->sendMeassge("Command Works");
              } else {
-             $sender->sendMessage("Command sent in Console");
+                 $sender->sendMessage("Command sent in Console");
+             }
         }
     return true;
     }

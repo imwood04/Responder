@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbabee8d-9a2e-49c0-b399-266e2c286047" name="Default Changelist" comment="No CLue anymore xD">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/imwood04/Respond/Main.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/imwood04/Respond/Main.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601235708503</updated>
       <workItem from="1601235709582" duration="6735000" />
-      <workItem from="1601316218686" duration="1092000" />
+      <workItem from="1601316218686" duration="1477000" />
     </task>
     <task id="LOCAL-00001" summary="YEh">
       <created>1601235963668</created>
@@ -143,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601242343952</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="No CLue anymore xD">
+      <created>1601317379961</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1601317379961</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +181,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="434" y="188" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1601235921968" />
+    <state x="411" y="87" key="NewPhpClassDialog" timestamp="1601317510173">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="411" y="87" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1601317510173" />
     <state x="517" y="287" key="NewPhpFileDialog" timestamp="1601236932621">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -182,9 +193,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1601235978067" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1601242348947">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1601317386616">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1601242348947" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1601317386616" />
   </component>
 </project>
