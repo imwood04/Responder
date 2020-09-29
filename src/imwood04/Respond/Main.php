@@ -1,6 +1,6 @@
 <?php
 declare(strict_types=1);
-namespace Imwood04\Responder;
+namespace imwood04\Responder;
 
 use imwood04\Respond\responses\fly;
 use pocketmine\plugin\PluginBase;
@@ -9,6 +9,10 @@ use pocketmine\command\CommandSender;
 
 class re extends PluginBase
 {
+
+    public $prefix = "§bRespond";
+
+    public $command = [];
 
     private static $instance;
 
