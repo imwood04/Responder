@@ -1,37 +1,34 @@
 <?php
-declare(strict_types=1);
 
 namespace Imwood04;
 
-use Imwood04\Commands\Responder;
+use Imwood04\Commands\Fly;
 use pocketmine\plugin\PluginBase;
+use pocketmine\utils\Config;
 
-class Main extends PluginBase
-{
+class Main extends PluginBase {
 
-    public $prefix = "§bResponder §4=> §r";
+    public $prefix = "§bResponder §4» §f";
 
     public $command = [];
 
-    public function onLoad()
-    {
+    public function onLoad() {
         $this->getLogger()->info("§ePlugin Loading....");
     }
 
     public function onEnable()
     {
-        $this->getLogger()->info("§aPlugin Enabled!");
+        $this->getLogger()->info("§aPlugin Activated!");
         $this->onCommands();
-    }
-
-    public function onCommands()
-    {
-        $this->getServer()->getCommandMap()->register('Responder', new Responder($this));
     }
 
     public function onDisable()
     {
-        $this->getLogger()->info("§cPlugin Disabled");
+        $this->getLogger()->info("§cPlugin Disabled!");
+    }
+
+    public function onCommands() {
+        $this->getServer()->getCommandMap()->register('fly', new Fly($this));
     }
 
 }

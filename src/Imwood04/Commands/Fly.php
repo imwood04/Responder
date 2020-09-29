@@ -3,22 +3,22 @@
 namespace Imwood04\Commands;
 
 use Imwood04\Main;
-use pocketmine\command;
+use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\Player;
 
-class Responder extends command\Command
-{
+class Fly extends Command {
+
     private $main;
 
-    public function __construct(Main $main)
-    {
+    public function __construct(Main $main) {
         parent::__construct("fly");
-        $this->setPermission("fly.command.fly");
-        $this->setDescription("Fly Command");
-        $this->setPermissionMessage("§bResponder §4=> §f§c§cYou do not have Perms to use this command1");
+        $this->setPermission("imwood04.fly");
+        $this->setDescription("Toggles Flying");
+        $this->setPermissionMessage( "§bYou do not have Permission to use this Command");
         $this->main = $main;
     }
+
 
     public function execute(CommandSender $sender, string $commandLabel, array $args)
     {
@@ -28,12 +28,12 @@ class Responder extends command\Command
                 $name = $sender->getName();
                 if (!in_array($name, $this->main->command)) {
                     $this->main->command[] = $name;
-                    $sender->sendMessage($this->main->prefix . "§aFlight Activated");
+                    $sender->sendMessage($this->main->prefix . "§aFlying Enabled");
                     $sender->setAllowFlight(true);
                 } else {
                     unset($this->main->command[array_search($name, $this->main->command)]);
                     $player = $sender->getPlayer();
-                    $sender->sendMessage($this->main->prefix . "§cFlying Deactivated");
+                    $sender->sendMessage($this->main->prefix . "§cFlying Disabled");
                     $sender->setAllowFlight(false);
                     $sender->setFlying(false);
                 }
