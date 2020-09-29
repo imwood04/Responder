@@ -1,6 +1,6 @@
 name: Responder
 description: A Command TEster Plugin
-main: imwood04\Respond\Main
+main: imwood04\Responder\re
 author: imwood04
 version: 1.0.0
 api: [3.0.0]
