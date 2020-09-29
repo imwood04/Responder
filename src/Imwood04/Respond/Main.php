@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Imwood04\Respond\responses\Main;
+namespace Imwood04\Respond;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\command\Command;
