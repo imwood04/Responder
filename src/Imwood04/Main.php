@@ -8,9 +8,6 @@ use pocketmine\plugin\PluginBase;
 
 class Main extends PluginBase
 {
-    /**
-     * @var Main
-     */
     private static $instance;
 
     public $prefix = "§bResponder §4=> §r";

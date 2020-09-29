@@ -10,8 +10,5 @@ commands:
     description: Allows Flight well should...
     usage: "/fly"
     permission: fly.command.fly
-permissions:
-  fly.command.fly:
-    description: "Allows the user to run the command"
-    default: true
+
 
