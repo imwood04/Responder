@@ -13,7 +13,7 @@ class Responder extends command\Command
     public function __construct(Main $main)
     {
         parent::__construct("fly");
-        $this->setPermission("cloud.fly");
+        $this->setPermission("fly.command.fly");
         $this->setDescription("Fly Command");
         $this->setPermissionMessage("§bResponder §4=> §f§c§cYou do not have Perms to use this command1");
         $this->main = $main;
