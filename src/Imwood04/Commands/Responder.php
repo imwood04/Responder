@@ -5,7 +5,6 @@ namespace Imwood04\Commands;
 use Imwood04\Main;
 use pocketmine\Player;
 use pocketmine\command;
-use pocketmine\command\CommandExecutor;
 use pocketmine\command\CommandSender;
 
 class Responder extends command\Command {

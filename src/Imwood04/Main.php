@@ -15,12 +15,19 @@ class Main extends PluginBase
 
     public $command = [];
 
-    public function onEnable() {
-        self::$instance = $this;
+    public function onLoad() {
+        $this->getLogger()->info("§ePlugin Loading....");
     }
 
-    public static function getInstance() {
-        return self::$instance;
+    public function onEnable()
+    {
+        $this->getLogger()->info("§aPlugin Enabled!");
+        $this->onCommands();
+    }
+
+    public function onDisable()
+    {
+        $this->getLogger()->info("§cPlugin Disabled");
     }
 
     public function onCommands(){
