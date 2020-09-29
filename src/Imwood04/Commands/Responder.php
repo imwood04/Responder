@@ -3,12 +3,14 @@
 namespace Imwood04\Commands;
 
 use Imwood04\Main;
-use pocketmine\Player;
 use pocketmine\command;
 use pocketmine\command\CommandSender;
+use pocketmine\Player;
 
-class Responder extends command\Command {
+class Responder extends command\Command
+{
     private $main;
+
     public function __construct(Main $main)
     {
         parent::__construct("fly");
@@ -17,6 +19,7 @@ class Responder extends command\Command {
         $this->setPermissionMessage("§bResponder §4=> §f§c§cYou do not have Perms to use this command1");
         $this->main = $main;
     }
+
     public function execute(CommandSender $sender, string $commandLabel, array $args)
     {
         if ($sender instanceof Player) {
