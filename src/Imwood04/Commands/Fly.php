@@ -7,15 +7,17 @@ use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\Player;
 
-class Fly extends Command {
+class Fly extends Command
+{
 
     private $main;
 
-    public function __construct(Main $main) {
+    public function __construct(Main $main)
+    {
         parent::__construct("fly");
         $this->setPermission("imwood04.fly");
         $this->setDescription("Toggles Flying");
-        $this->setPermissionMessage( "§bYou do not have Permission to use this Command");
+        $this->setPermissionMessage("§bYou do not have Permission to use this Command");
         $this->main = $main;
     }
 
