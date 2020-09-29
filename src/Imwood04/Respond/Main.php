@@ -3,16 +3,19 @@ declare(strict_types=1);
 
 namespace Imwood04\Respond;
 
+use Imwood04\Respond\Commands\responder;
 use pocketmine\plugin\PluginBase;
-use pocketmine\command\Command;
-use pocketmine\command\CommandSender;
 
 class Main extends PluginBase
 {
+    /**
+     * @var Main
+     */
+    private static $instance;
+
+    public $prefix = "§bResponder §4=> §r";
 
     public $command = [];
-
-    private static $instance;
 
     public function onEnable() {
         self::$instance = $this;
@@ -22,13 +25,8 @@ class Main extends PluginBase
         return self::$instance;
     }
 
-    public function onCommand(CommandSender $sender, Command $command, $label, array $args): bool{
-        $respond = $command->getName();
-        if ($respond === "respond") {
-            $sender->sendMessage("Hi!");
-            return true;
-        }
-        return false;
+    public function onCommands(){
+        $this->getServer()->getCommandMap()->register('responder', new responder());
     }
 
 }
