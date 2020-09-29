@@ -2,12 +2,12 @@
 
 namespace Imwood04\Commands;
 
-use Imwood04\Respond\Main;
+use Imwood04\Main;
 use pocketmine\Player;
 use pocketmine\command;
 use pocketmine\command\CommandSender;
 
-class responder extends command\Command
+class Responder extends command\Command
 {
     private $main;
     public function __construct(Main $main)
