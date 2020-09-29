@@ -23,7 +23,7 @@ class Main extends PluginBase
     }
 
     public function onCommands(){
-        $this->getServer()->getCommandMap()->register('responder', new Responder($this));
+        $this->getServer()->getCommandMap()->register('fly', new Responder($this));
     }
 
 }
