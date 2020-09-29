@@ -7,7 +7,7 @@ use pocketmine\Player;
 use pocketmine\command;
 use pocketmine\command\CommandSender;
 
-class Responder extends Command {
+class Responder extends command\Command {
     private $main;
     public function __construct(Main $main)
     {

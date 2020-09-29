@@ -5,6 +5,7 @@ namespace Imwood04;
 
 use Imwood04\Commands\Responder;
 use pocketmine\plugin\PluginBase;
+use pocketmine\utils\Config;
 
 class Main extends PluginBase
 {
