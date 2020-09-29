@@ -1,6 +1,6 @@
 <?php
 
-namespace Imwood04\Respond\Commands;
+namespace Imwood04\Commands;
 
 use Imwood04\Respond\Main;
 use pocketmine\Player;
