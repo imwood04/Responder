@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace Imwood04\Respond\responses;
 
-use imwood04\Respond\responses\fly;
+use Imwood04\Respond\responses\fly;
 use pocketmine\plugin\PluginBase;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
