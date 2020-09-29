@@ -3,6 +3,7 @@
 namespace Imwood04;
 
 use Imwood04\Commands\Fly;
+use Imwood04\Commands\TpAll;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\Config;
 
@@ -29,6 +30,7 @@ class Main extends PluginBase {
 
     public function onCommands() {
         $this->getServer()->getCommandMap()->register('fly', new Fly($this));
+        $this->getServer()->getCommandMap()->register('tpall', new TpAll($this));
     }
 
 }
