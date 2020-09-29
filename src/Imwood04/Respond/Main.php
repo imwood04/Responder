@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Imwood04\Respond;
+namespace Imwood04\Respond\responses;
 
 use imwood04\Respond\responses\fly;
 use pocketmine\plugin\PluginBase;
