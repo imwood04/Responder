@@ -4,11 +4,3 @@ main: Imwood04\Main
 author: Imwood04/ZeroTwo#8676
 version: 1.0.0
 api: [3.0.0]
-
-commands:
-  fly:
-    description: Allows Flight well should...
-    usage: "/fly"
-    permission: fly.command.fly
-
-
