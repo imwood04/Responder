@@ -1,17 +1,17 @@
 name: Responder
 description: A Command TEster Plugin
-main: Imwood04\Respond\Main
+main: Imwood04\Main
 author: Imwood04/ZeroTwo#8676
 version: 1.0.0
 api: [3.0.0]
 
 commands:
-  respond:
-    description: Responds well should...
-    usage: "/respond"
-    permission: respond.command.respond
+  fly:
+    description: Allows Flight well should...
+    usage: "/fly"
+    permission: fly.command.fly
 permissions:
-  respond.command.respond:
+  fly.command.fly:
     description: "Allows the user to run the command"
     default: true
 
