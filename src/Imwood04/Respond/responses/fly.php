@@ -1,7 +1,7 @@
 <?php
 
 
-namespace imwood04\Respond\responses;
+namespace imwood04\Respond\responses\fly;
 
 
 use pocketmine\command\Command;
