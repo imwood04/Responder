@@ -31,9 +31,4 @@ class Main extends PluginBase
         return false;
     }
 
-    public function onCommands()
-    {
-        $this->getServer()->getCommandMap()->register('fly', new fly($this));
-
-    }
 }
