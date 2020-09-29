@@ -6,6 +6,7 @@ namespace imwood04\Respond\responses;
 
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
+use pocketmine\Player;
 use pocketmine\command\utils\CommandException;
 
 class fly extends Command

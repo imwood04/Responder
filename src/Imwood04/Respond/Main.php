@@ -7,7 +7,7 @@ use pocketmine\plugin\PluginBase;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 
-class re extends PluginBase
+class Main extends ParentClass
 {
 
     public $prefix = "§bRespond";
